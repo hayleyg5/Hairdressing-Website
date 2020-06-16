@@ -35,13 +35,13 @@
     <!-- Use your own CSS file to change those fonts if they do not correspond to your company's look -->
     <div class="container-md p-3 my-3 border">
         <div class="row">
-            <div class="col">
+            <div class="col-sm-3">
                 <img class="logo" src="Cursive-L.png" alt="Logo">
                 <h1>Lilac Locks</h1>
             </div>
-            <div class="col">Services</div>
-            <div class="col">Book a Visit</div>
-            <div class="col">Contact Us</div>
+            <div class="col-sm-2">Services</div>
+            <div class="col-sm-2">Book a Visit</div>
+            <div class="col-sm-2">Contact Us</div>
         </div>
     </div>
 
@@ -57,43 +57,88 @@
 -->
 
     <!-- When you have messages to tell, remember that center align is not always the best choice -->
-    <div class="container-md p-3 my-3 border bg-dark text-white">
-        <h3>Let us tell you about our expertise</h3>
+    <div class="container">
+        <h2>For Reference</h2>
         <p>We can <mark>cut hair</mark></p>
-        <p class="text-center" >Align wheels</p>
-        <p class="text-uppercase">Write in uppercase</p>
-        <p class="text-center text-uppercase" >centered and uppercase</p>
+        <p class="container">Hair Lengths:
+            <img class="logo" src="Cursive-L.png" alt="Logo">
+        </p>
+        <p class="container">Hair Styles:</p>
+        <p class="container">Hair Colours:</p>
     </div>
 
 
     <!-- Bootstrap has different types of tables https://www.w3schools.com/bootstrap4/bootstrap_tables.asp -->
     <!-- Might be (or not) useful to show some information to the user -->
     <div class="container">
-        <h2>Our Services</h2>
-        <p>Here is a list of the services offered:</p>            
+        <h2>Our Services</h2>           
         <table class="table table-primary table-hover">
             <thead>
             <tr>
                 <th>Service</th>
-                <th>Description</th>
+                <th>Prices</th>
             </tr>
             </thead>
             <tbody>
             <tr>
                 <td>Haircut</td>
-                <td>Bla bla</td>
+                <td>
+                    <ul class="list-group">
+                        <li class="list-group-item">Short hair ........ $35</li>
+                        <li class="list-group-item">Medium hair ....... $45</li>
+                        <li class="list-group-item">Long hair ......... $55</li>
+                    </ul>
+                </td>
             </tr>
             <tr>
                 <td>Styling</td>
-                <td>Bla bla</td>
+                <td>
+                    <ul class="list-group">
+                        <li class="list-group-item">Wash & Blowdry .... $35</li>
+                        <li class="list-group-item">Wash & Updo ....... $75</li>
+                    </ul>
+                </td>
             </tr>
             <tr>
                 <td>Coloring</td>
-                <td>Bla bla</td>
+                <td>
+                    <ul class="list-group">
+                        <li class="list-group-item">Highlights ........ $100</li>
+                        <li class="list-group-item">Full Colour ....... $125</li>
+                    </ul>
+                </td>
             </tr>
             </tbody>
         </table>
     </div>
+    
+    <div class="container">
+        <h2>Our Experts</h2>
+        <div class="card-columns">
+            <div class="card" style="width:200px">
+                <img class="card-img-top" src="images/Jule.jpg" alt="Card image" style="width:100%">
+                <div class="card-body">
+                    <h4 class="card-title">Jules</h4>
+                    <p class="card-text">Jules has been cutting hair for 10 years.</p>
+                    <a href="#" class="btn btn-primary">See Profile</a>
+                </div>
+            </div>
+            <div class="card bg-dark" style="width:200px">
+                <img class="card-img-top" src="images/Jule.jpg" alt="Card image" style="width:100%">
+                <div class="card-body">
+                    <h4 class="card-title">Jules</h4>
+                    <p class="card-text">The curly hair specialist</p>
+                    <!-- collapsible part -->
+                    <a href="#profile" class="btn btn-primary" data-toggle="collapse">See Profile</a>
+                    <div id="profile" class="collapse p-3">
+                        <p>Jules has been cutting hair for 10 years ... </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+        
 
 
     <!-- Bootstrap has components for alerts: https://www.w3schools.com/bootstrap4/bootstrap_alerts.asp  -->
@@ -256,7 +301,7 @@
         </div>
     </div>
         
-    <div class="container bg-dark text-white">
+    <div class="container bg-black text-white">
         <h2>Contact Us</h2>
         <p>123 Sweetland Ave.</p>
         <p>Ottawa ON K1N 1P2</p>
