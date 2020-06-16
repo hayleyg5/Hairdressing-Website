@@ -36,3 +36,8 @@
 .input {
    color: black;
 }
+
+#signature {
+  text-align: left;
+  color: rgb(222,180,222);
+}
