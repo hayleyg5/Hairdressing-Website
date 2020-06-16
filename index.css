@@ -6,13 +6,13 @@
 /* Bootstrap default font-family is Helvetica Neue */
 .col img {
   float: left;
-  width: 100px;
-  height: 100px;
+  width: 75px;
+  height: 75px;
 }
 
 .col h1 {
   font-family: "Times New Roman", Times, serif;
-  font-size: 16px;
+  font-size: 22px;
   color: rgb(222,180,222);
   position: relative;
   top: 18px;
