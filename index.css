@@ -10,7 +10,7 @@
   height: 50px;
 }
 
-.col h1 {
+.col-sm-3 h1 {
   font-family: "Times New Roman", Times, serif;
   font-size: 22px;
   color: rgb(222,180,222);
