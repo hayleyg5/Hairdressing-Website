@@ -35,13 +35,13 @@
     <!-- Use your own CSS file to change those fonts if they do not correspond to your company's look -->
     <div class="container-md p-3 my-3">
         <div class="row">
-            <div class="col-sm-4">
+            <div class="col-sm-3">
                 <img class="logo" src="Cursive-L.png" alt="Logo" style="width:30%">
                 <h1>Lilac Locks</h1>
             </div>
-            <div class="col-sm-2" align="center">Services</div>
-            <div class="col-sm-2" align="center">Book a Visit</div>
-            <div class="col-sm-2" align="center">Contact Us</div>
+            <div class="col-sm-3">Services</div>
+            <div class="col-sm-3">Book a Visit</div>
+            <div class="col-sm-3">Contact Us</div>
         </div>
     </div>
 
@@ -70,7 +70,9 @@
                 </div>
                 <div id="collapseService" class="collapse show" data-parent="#accordion">
                     <div class="card-body">
-                        <p>Here is our list of services</p>
+                        <input type="radio" name="content" value="content">Haircut<br>
+	                    <input type="radio" name="content" value="content">Haircut & Styling<br>
+                        <input type="radio" name="content" value="content">Haircut & Styling & Colouring<br>
                     </div>
                 </div>
             <div class="card">
@@ -85,7 +87,7 @@
                         <div class="form-group row">
                             <label for="dateTimeInput" class="col-2 col-form-label">Date and time</label>
                             <div class="col-10">
-                                <input class="form-control" type="datetime-local" value="2011-08-19T13:45:00" id="dateTimeInput">
+                                <input class="form-control" type="datetime-local" value="2020-06-16T10:00:00" id="dateTimeInput">
                             </div>
                         </div>
                     </div>
@@ -97,20 +99,22 @@
                 </div>
                 <div id="collapseClientInfo" class="collapse" data-parent="#accordion">
                     <div class="card-body">
-                        <p>Your information so we can contact you</p>
-                        <p>Form to enter name, email, phone</p>
+                        <input type="text" name="answer" placeholder="Name"><br>
+                        <input type="text" name="answer" placeholder="Email"><br>
+                        <input type="text" name="answer" placeholder="Phone"><br>
                     </div>
                 </div>
             </div>
         </div>
+            <a href="#" class="btn btn-primary">Submit</a>
     </div>
+        
     
     <br>
 
     <!-- When you have messages to tell, remember that center align is not always the best choice -->
     <div class="container">
         <h2>For Reference</h2>
-        <p>We can <mark>cut hair</mark></p>
         <p class="container">Hair Lengths:
         </p>
         <p class="container">Hair Styles:</p>
