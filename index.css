@@ -6,8 +6,8 @@
 /* Bootstrap default font-family is Helvetica Neue */
 .col img {
   float: left;
-  width: 75px;
-  height: 75px;
+  width: 50px;
+  height: 50px;
 }
 
 .col h1 {
