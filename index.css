@@ -4,9 +4,16 @@
 */
 
 /* Bootstrap default font-family is Helvetica Neue */
-h1 {
+.col img {
+  float: left;
+  width: 100px;
+  height: 100px;
+}
+
+.col h1 {
   font-family: "Times New Roman", Times, serif;
-  text-shadow: 3px 3px 1px black;
   color: rgb(222,180,222);
-  
+  position: relative;
+  top: 18px;
+  left: 10px;
 }
