@@ -1,4 +1,4 @@
-
+/* This file has been modified from Caroline Barrier's original file.
 /* Style sheet
    color picker www.w3schools.com/colors/colors_picker.asp
 */
@@ -12,7 +12,7 @@
 
 .col-sm-3 h1 {
   font-family: "Times New Roman", Times, serif;
-  font-size: 24px;
+  font-size: 26px;
   color: rgb(222,180,222);
   position: relative;
   top: 18px;
@@ -21,21 +21,12 @@
 
 .col-sm-3 h2 {
   color: rgb(222,180,222);
-   font-size: 20px;
+   font-size: 22px;
 }
 
 .container h2 {
    color: rgb(222,180,222);
-   font-size: 20px;
-}
-
-.col-sm-4 h1 {
-  font-family: "Times New Roman", Times, serif;
-  font-size: 24px;
-  color: rgb(222,180,222);
-  position: relative;
-  top: 18px;
-  left: 10px;
+   font-size: 22px;
 }
 
 .checkbox {
