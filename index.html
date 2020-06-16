@@ -47,14 +47,6 @@
 
     <!-- Bootstrap contains a grid system you can explore https://www.w3schools.com/bootstrap4/bootstrap_grid_system.asp -->
     <!-- It can be useful for placement of information -->
-    <!--
-    <div class="row p-3">
-        <div class="col-sm-3">Home</div>
-        <div class="col-sm-3">Services</div>
-        <div class="col-sm-3">Book a Visit</div>
-        <div class="col-sm-3">Contact Us</div>
-    </div>
--->
     
     <div class="container">
         <div class="alert alert-danger">
@@ -70,9 +62,9 @@
                 </div>
                 <div id="collapseService" class="collapse show" data-parent="#accordion">
                     <div class="card-body">
-                        <input type="radio" name="content" value="content">Haircut<br>
-	                    <input type="radio" name="content" value="content">Haircut & Styling<br>
-                        <input type="radio" name="content" value="content">Haircut & Styling & Colouring<br>
+                        <input type="radio" name="content" value="content"> Haircut<br>
+	                    <input type="radio" name="content" value="content"> Haircut & Styling<br>
+                        <input type="radio" name="content" value="content"> Haircut & Styling & Colouring<br>
                     </div>
                 </div>
             <div class="card">
@@ -205,51 +197,11 @@
     <!-- https://www.w3schools.com/bootstrap4/bootstrap_buttons.asp -->
     <!-- Remember how we talked about choosing a hue and changing the saturation for active/inactive -->
     <!-- This idea is already part of the components in Bootstrap -->
-    <div class="container">
-        <h2>Button States</h2>
-        <button type="button" class="btn btn-dark">Primary Button</button>
-        <button type="button" class="btn btn-dark active">Active Primary</button>
-        <button type="button" class="btn btn-dark" disabled>Disabled Primary</button>
-    </div>
 
 
     <!-- Including a modal https://www.w3schools.com/bootstrap4/bootstrap_modal.asp -->
     <!-- Modals are useful for additional information or questions -->
     <!-- Here the modal is used for a little survey -->
-    <div class="container">
-        <h2>Modal Example</h2>
-        <!-- Trigger the modal with a button -->
-        <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#mySurvey">Open Survey</button>
-          
-        <!-- Modal -->
-        <div class="modal fade" id="mySurvey" role="dialog">
-            <div class="modal-dialog">  
-            <!-- Modal content-->
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                </div>
-                <div class="modal-body">
-                    <div class="container">
-                        <h2>How did you hear about us?</h2>
-                        <p>Tell us:</p>
-                        <form>
-                          <div class="checkbox">
-                            <label><input type="checkbox" value="">Option 1</label>
-                          </div>
-                          <div class="checkbox">
-                            <label><input type="checkbox" value="">Option 2</label>
-                          </div>
-                        </form>
-                    </div>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                </div>
-            </div>     
-        </div>
-        </div>    
-    </div>
 
     <!-- Presenting the staff with cards: https://www.w3schools.com/bootstrap4/bootstrap_cards.asp -->
     <!-- Card columns allows multiple cards next to each other -->
@@ -263,12 +215,53 @@
 
     <!-- Collapsible with multiple items - accordion -->
     <!-- https://www.w3schools.com/bootstrap4/bootstrap_collapse.asp -->
-        
-    <div class="container bg-dark text-white">
-        <h2>Contact Us</h2>
-        <p>123 Sweetland Ave.</p>
-        <p>Ottawa ON K1N 1P2</p>
-        <p>(613)-123-4567</p>
+	    
+    <div class="container p-3 my-3 bg-dark text-white">
+        <div class="row">
+            <div class="col-sm-3">
+                <img class="logo" src="Cursive-L.png" alt="Logo" style="width:30%">
+                <h1>Lilac Locks</h1>
+            </div>
+            <div class="col-sm-3">
+		<h2>Contact Us</h2>
+        	<p>123 Sweetland Ave.</p>
+        	<p>Ottawa ON K1N 1P2</p>
+        	<p>(613)-123-4567</p>
+		</div>
+            <div class="col-sm-3">
+        <!-- Trigger the modal with a button -->
+        	<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#mySurvey">Open Survey</button>
+          
+        <!-- Modal -->
+		<div class="modal fade" id="mySurvey" role="dialog">
+		    <div class="modal-dialog">  
+		    <!-- Modal content-->
+		    <div class="modal-content">
+			<div class="modal-header">
+			    <button type="button" class="close" data-dismiss="modal">&times;</button>
+			</div>
+			<div class="modal-body">
+			    <div class="container">
+				<h2>How did you hear about us?</h2>
+				<p>Tell us:</p>
+				<form>
+				  <div class="checkbox">
+				    <label><input type="checkbox" value="">Option 1</label>
+				  </div>
+				  <div class="checkbox">
+				    <label><input type="checkbox" value="">Option 2</label>
+				  </div>
+				</form>
+			    </div>
+			</div>
+			<div class="modal-footer">
+			    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+			</div>
+		    </div>     
+		    </div>
+		</div> 
+		</div>
+        </div>
     </div>
 
 </body>
