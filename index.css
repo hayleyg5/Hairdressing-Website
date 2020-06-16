@@ -12,9 +12,14 @@
 
 .col-sm-4 h1 {
   font-family: "Times New Roman", Times, serif;
-  font-size: 22px;
+  font-size: 24px;
   color: rgb(222,180,222);
   position: relative;
   top: 18px;
   left: 10px;
+}
+
+.container h2 {
+   color: rgb(222,180,222);
+   font-size: 20px;
 }
